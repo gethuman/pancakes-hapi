@@ -10,10 +10,8 @@ var sinon           = require('sinon');
 var chai            = require('chai');
 var sinonChai       = require('sinon-chai');
 var chaiAsPromised  = require('chai-as-promised');
-var mochaAsPromised = require('mocha-as-promised');
 var path            = require('path');
 
-mochaAsPromised();
 chai.use(sinonChai);
 chai.use(chaiAsPromised);
 
