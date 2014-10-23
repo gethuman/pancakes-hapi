@@ -31,12 +31,12 @@ var all = function (promises, done) {
  * @param expected
  * @param done
  */
-var eventuallySame = function (promise, expected, done) {
+function eventuallyEqual(promise, expected, done) {
     all([
         promise.should.be.fulfilled,
         promise.should.eventually.deep.equal(expected)
     ], done);
-};
+}
 
 var target = function (relativePath) {
     return require('../lib/' + relativePath);
@@ -44,7 +44,7 @@ var target = function (relativePath) {
 
 module.exports = {
     all: all,
-    eventuallySame: eventuallySame,
+    eventuallyEqual: eventuallyEqual,
     target: target,
     fixturesDir: __dirname + '/fixtures',
     delim: path.normalize('/'),
