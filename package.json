@@ -2,7 +2,7 @@
     "name": "pancakes-hapi",
     "version": "0.0.1",
     "description": "Pancakes plugin for Hapi",
-    "main": "lib/pancakes.hapi.js",
+    "main": "lib/pancakes.hapi.plugin.js",
     "repository": {
         "type": "git",
         "url": "git://github.com/gethuman/pancakes-hapi.git"

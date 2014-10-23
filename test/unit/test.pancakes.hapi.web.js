@@ -13,7 +13,8 @@ describe('UNIT ' + name, function () {
         it('should add 3 routes', function () {
             var routeSpy = taste.spy();
             var opts = { server: { route: routeSpy } };
-            hapi.addWebRoutes(opts);
+            var context = { getWebRouteHandler: taste.spy() };
+            hapi.addWebRoutes.call(context, opts);
             routeSpy.should.have.callCount(3);
         });
     });
