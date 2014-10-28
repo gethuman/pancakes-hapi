@@ -5,7 +5,7 @@
  *
  */
 var name    = 'pancakes.hapi.web';
-var taste   = require('../taste');
+var taste   = require('taste');
 var hapi    = taste.target(name);
 
 describe('UNIT ' + name, function () {
