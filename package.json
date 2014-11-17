@@ -1,6 +1,6 @@
 {
   "name": "pancakes-hapi",
-  "version": "0.1.26",
+  "version": "0.1.27",
   "description": "Pancakes plugin for Hapi",
   "main": "lib/pancakes.hapi.plugin.js",
   "repository": {
@@ -21,7 +21,7 @@
   "homepage": "https://github.com/gethuman/pancakes-hapi",
   "dependencies": {
     "lodash": "~2.4.1",
-    "pancakes": "0.1.25",
+    "pancakes": "0.1.26",
     "q": "^1.1.1"
   },
   "devDependencies": {
