@@ -15,7 +15,7 @@ describe('UNIT ' + name, function () {
             var opts = { server: { route: routeSpy } };
             var context = { getWebRouteHandler: taste.spy() };
             hapi.addWebRoutes.call(context, opts);
-            routeSpy.should.have.callCount(3);
+            routeSpy.should.have.callCount(1);
         });
     });
 });
