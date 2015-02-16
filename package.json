@@ -1,6 +1,6 @@
 {
   "name": "pancakes-hapi",
-  "version": "0.1.48",
+  "version": "0.1.49",
   "description": "Pancakes plugin for Hapi",
   "main": "lib/pancakes.hapi.plugin.js",
   "repository": {
@@ -25,8 +25,8 @@
     "q": "^1.1.2"
   },
   "devDependencies": {
-    "batter": "0.0.15",
+    "batter": "0.0.16",
     "gulp": "^3.8.11",
-    "taste": "^0.1.48"
+    "taste": "^0.1.49"
   }
 }
