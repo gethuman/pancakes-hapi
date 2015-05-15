@@ -21,7 +21,7 @@
   "homepage": "https://github.com/gethuman/pancakes-hapi",
   "dependencies": {
     "lodash": "~3.8.0",
-    "pancakes": "0.1.68",
+    "pancakes": "0.1.70",
     "q": "^1.4.0"
   },
   "devDependencies": {
