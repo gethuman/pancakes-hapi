@@ -22,7 +22,7 @@
   "dependencies": {
     "lodash": "~3.10.0",
     "newrelic": "^1.21.1",
-    "pancakes": "0.1.94",
+    "pancakes": "0.1.96",
     "q": "^1.4.1"
   },
   "devDependencies": {
