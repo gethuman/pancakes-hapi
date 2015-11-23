@@ -12,10 +12,12 @@ describe('UNIT ' + name, function () {
     describe('addWebRoutes()', function () {
         it('should add 3 routes', function () {
             var routeSpy = taste.spy();
-            var opts = { server: { route: routeSpy }, config: {} };
+            var onSpy = taste.spy();
+            var opts = { server: { route: routeSpy, on: onSpy }, config: {} };
             var context = { getWebRouteHandler: taste.spy() };
             hapi.addWebRoutes.call(context, opts);
             routeSpy.should.have.callCount(1);
+            onSpy.should.have.callCount(1);
         });
     });
 });
