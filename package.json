@@ -22,12 +22,12 @@
   "dependencies": {
     "lodash": "~3.10.1",
     "newrelic": "^1.24.0",
-    "pancakes": "0.1.116",
+    "pancakes": "0.1.117",
     "q": "^1.4.1"
   },
   "devDependencies": {
-    "batter": "0.1.21",
+    "batter": "0.1.22",
     "gulp": "^3.9.0",
-    "taste": "^0.2.16"
+    "taste": "^0.2.17"
   }
 }
