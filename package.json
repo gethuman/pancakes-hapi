@@ -20,14 +20,14 @@
   },
   "homepage": "https://github.com/gethuman/pancakes-hapi",
   "dependencies": {
-    "lodash": "4.8.2",
-    "newrelic": "1.26.1",
-    "pancakes": "0.1.135",
+    "lodash": "4.11.1",
+    "newrelic": "1.26.2",
+    "pancakes": "0.1.136",
     "q": "1.4.1"
   },
   "devDependencies": {
-    "batter": "0.1.36",
+    "batter": "0.1.37",
     "gulp": "3.9.1",
-    "taste": "0.2.29"
+    "taste": "0.2.30"
   }
 }
